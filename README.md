@@ -1,11 +1,34 @@
-<div align="center">
+# 杭州西湖与数字科技 (Hangzhou West Lake & Digital Technology)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+一个将**杭州西湖的古典水墨山水美学**与**现代前沿数字孪生科技**完美交融的互动数字艺术体验。
 
-  <h1>Built with AI Studio</h2>
+在这里，您不仅可以领略西湖的四季更迭（春、夏、秋、冬），还可以一键切换古典水墨（Artistic Mode）与科幻未来（Cyber Mode），并伴随着经典的古琴与五音古谱（如《春江花月夜》、《平沙落雁》等）在曲折的西湖景致中泛舟漫游。
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+🔗 **访问链接 (Live Link):** [https://westlark.ai.studio/](https://westlark.ai.studio/)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+---
 
-</div>
+## 🎨 核心功能亮点 (Core Features)
+
+### 1. 两种维度的美学碰撞 (Aesthetic Modes)
+*   **古典水墨美学 (Artistic Mode)**：以宣纸为底色，辅以淡雅水墨群山、流动的云雾、以及传统的古风印章，呈现深邃、宁静、天人合一的山水意境。
+*   **数字孪生科技 (Cyber Mode)**：以赛博暗色调为基础，搭载未来感经纬度网格线、炫目极光背景和流动的二进制数字，构筑出一幅充满科技魅力的数字沙盘。
+
+### 2. 四季流转与限定景致 (Dynamic Seasons)
+根据不同的季节选择，整个地图与粒子系统将随之变化：
+*   **春 (Spring)**：桃红柳绿，桃花瓣与杨柳丝随风摇曳，泛出盎然春意。
+*   **夏 (Summer)**：接天莲叶，西湖中荷花绽放，荷叶漂浮，尽显盛夏活力。
+*   **秋 (Autumn)**：金桂飘香，漫天飞舞的枫叶与金黄桂花点缀湖畔，富有诗意。
+*   **冬 (Winter)**：断桥残雪，飞舞的雪花与银装素裹的群山带来冬日的圣洁。
+
+### 3. 古典五音曲谱与泛舟交互 (Classical Pentatonic Melodies)
+*   内置《春江花月夜》、《平沙落雁》、《渔樵问答》等古典减字谱旋律。
+*   点击演奏时，音乐与地图上景点的古典音符进行实时亮起联动。
+*   湖中的一叶轻舟会动态行驶到您当前选定的西湖景点，并在湖面上留下一缕写意的波纹。
+
+---
+
+## 🚀 项目链接 (Project URL)
+
+欢迎访问项目官方在线地址以获取最完整的沉浸式互动体验：
+👉 **[https://westlark.ai.studio/](https://westlark.ai.studio/)**

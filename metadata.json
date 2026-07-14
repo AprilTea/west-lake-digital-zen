@@ -1,0 +1,6 @@
+{
+  "name": "杭州西湖与数字科技",
+  "description": "展示杭州西湖的四季美景（春、夏、秋、冬）与现代城市的数字科技感，融古典水墨美学与现代动效于一体。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
