@@ -30,8 +30,8 @@
 }
 
 @keyframes eco-breathe {
-  0%, 100% { transform: scale(0.96) translate(-50%, -50%); opacity: 0.15; filter: blur(30px); }
-  50% { transform: scale(1.06) translate(-50%, -50%); opacity: 0.35; filter: blur(40px); }
+  0%, 100% { transform: scale(0.94) translate(-50%, -50%); opacity: 0.15; }
+  50% { transform: scale(1.06) translate(-50%, -50%); opacity: 0.35; }
 }
 
 @keyframes float-particle {
@@ -58,8 +58,8 @@
 }
 
 @keyframes wave-ripple {
-  0% { r: 10px; opacity: 1; stroke-width: 1.5; }
-  100% { r: 120px; opacity: 0; stroke-width: 0.5; }
+  0% { transform: scale(0.08); opacity: 1; stroke-width: 1.5; }
+  100% { transform: scale(1); opacity: 0; stroke-width: 0.5; }
 }
 
 .animate-scan {
@@ -69,46 +69,63 @@
 .animate-beam-1 {
   animation: beam-sweep 5s infinite ease-in-out;
   transform-origin: 200px 300px;
+  will-change: transform;
 }
 
 .animate-beam-2 {
   animation: beam-sweep 6s infinite ease-in-out reverse;
   transform-origin: 200px 300px;
+  will-change: transform;
 }
 
 .animate-eco-breathe {
   animation: eco-breathe 4s infinite ease-in-out;
+  filter: blur(35px);
+  will-change: transform, opacity;
 }
 
 .animate-float-1 {
   animation: float-particle 4s infinite linear;
+  will-change: transform, opacity;
 }
 
 .animate-float-2 {
   animation: float-particle 5.5s infinite linear;
   animation-delay: 1.5s;
+  will-change: transform, opacity;
 }
 
 .animate-float-3 {
   animation: float-particle 7s infinite linear;
   animation-delay: 3s;
+  will-change: transform, opacity;
 }
 
 .animate-spin-slow {
   animation: spin-slow 15s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+  will-change: transform;
 }
 
 .animate-spin-reverse {
   animation: spin-reverse 20s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+  will-change: transform;
 }
 
 .animate-dash-flow {
   stroke-dasharray: 8, 4;
   animation: dash-flow 2s infinite linear;
+  will-change: stroke-dashoffset;
 }
 
 .animate-wave-ripple {
   animation: wave-ripple 3s infinite cubic-bezier(0.1, 0.8, 0.3, 1);
+  transform-origin: center;
+  transform-box: fill-box;
+  will-change: transform, opacity;
 }
 
 /* Scrollbar styling */

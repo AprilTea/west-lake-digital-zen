@@ -4,7 +4,7 @@
 
 在这里，您不仅可以领略西湖的四季更迭（春、夏、秋、冬），还可以一键切换古典水墨（Artistic Mode）与科幻未来（Cyber Mode），并伴随着经典的古琴与五音古谱（如《春江花月夜》、《平沙落雁》等）在曲折的西湖景致中泛舟漫游。
 
-🔗 **访问链接 (Live Link):** [https://westlark.ai.studio/](https://westlark.ai.studio/)
+🔗 **访问链接 (Live Link):** [https://westlake.ai.studio/](https://westlake.ai.studio/)
 
 ---
 
@@ -31,4 +31,4 @@
 ## 🚀 项目链接 (Project URL)
 
 欢迎访问项目官方在线地址以获取最完整的沉浸式互动体验：
-👉 **[https://westlark.ai.studio/](https://westlark.ai.studio/)**
+👉 **[https://westlake.ai.studio/](https://westlake.ai.studio/)**
