@@ -83,25 +83,7 @@ export const ScoreCard: React.FC<ScoreCardProps> = ({
           {/* Header row */}
           <div className="flex items-start justify-between w-full">
             <div className="flex flex-col space-y-0.5 pr-4 truncate w-full">
-              {isExpanded && (
-                <motion.span 
-                  initial={{ opacity: 0, y: -4 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  className={`text-[8.5px] uppercase font-mono tracking-wider font-semibold transition-colors duration-300 ${
-                    isCurrentlyActiveVisual
-                      ? styleMode === 'artistic'
-                        ? 'text-rose-800/85'
-                        : 'text-rose-300/85'
-                      : styleMode === 'artistic'
-                        ? 'text-emerald-800/85'
-                        : 'text-cyan-400/85'
-                  }`}
-                >
-                  ✨ 当前选定曲谱 (Active Score)
-                </motion.span>
-              )}
-              
-              <div className="flex items-center space-x-1.5 mt-0.5">
+              <div className="flex items-center space-x-1.5">
                 <span className={`font-bold font-serif-sc transition-all duration-300 truncate ${
                   isExpanded 
                     ? 'text-xs sm:text-sm' 
@@ -131,20 +113,13 @@ export const ScoreCard: React.FC<ScoreCardProps> = ({
                 </span>
               </div>
 
-              <div className="text-[10px] font-mono flex items-center space-x-1 mt-1 transition-all duration-300">
+              <div className="flex items-center space-x-1 mt-1 transition-all duration-300">
                 <span className={`text-[8.5px] transition-colors duration-300 ${
-                  isCurrentlyActiveVisual 
-                    ? styleMode === 'artistic' ? 'text-rose-900/75' : 'text-rose-300/75'
-                    : styleMode === 'artistic' ? 'text-[#8b8273]' : 'text-slate-400/75'
-                }`}>
-                  📍 {isExpanded ? '关联景点' : ''}:
-                </span>
-                <span className={`text-[8.5px] font-bold transition-colors duration-300 ${
                   isCurrentlyActiveVisual
-                    ? styleMode === 'artistic' ? 'text-rose-700' : 'text-rose-300'
-                    : styleMode === 'artistic' ? 'text-zinc-700' : 'text-slate-200'
+                    ? styleMode === 'artistic' ? 'text-rose-700/80 font-medium' : 'text-rose-300/80'
+                    : styleMode === 'artistic' ? 'text-[#8b8273]' : 'text-slate-400/80'
                 }`}>
-                  {isExpanded ? score.spot : score.spot.split(' / ')[0]}
+                  📍 {isExpanded ? score.spot : score.spot.split(' / ')[0]}
                 </span>
               </div>
             </div>

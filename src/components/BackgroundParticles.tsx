@@ -98,7 +98,7 @@ export const BackgroundParticles: React.FC<BackgroundParticlesProps> = ({
         const rand = Math.random();
         if (rand < 0.7) {
           subType = 'snow';
-          color = '#FFFFFF'; // Silver snow
+          color = '#a0b6cc'; // Silver snowy ink
         } else {
           subType = 'plum';
           color = '#E11D48'; // Red wintersweet plum blossom
